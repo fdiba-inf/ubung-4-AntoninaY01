@@ -9,14 +9,15 @@ public class MinIndex {
         Scanner input = new Scanner(System.in);
         int size = input.nextInt();
         int[] numbers = new int[size];
-        double minnumber;
-        int min = 0;
+        double minnumber=0;
+        double min = 0;
         for (int index = 0; index < numbers.length; index++) {
             numbers[index] = input.nextInt();
         }
-        for (int i = 0; i < numbers.length; i++) {
-           if(numbers[i]<a[min]){
-             min=;
+        for (int index = 0; index < numbers.length; index++) {
+           if(numbers[index]<min){
+             minnumber= numbers[index];
+             min=index;
            }
            
         }
