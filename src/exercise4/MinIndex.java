@@ -10,7 +10,7 @@ public class MinIndex {
         int size = input.nextInt();
         int[] numbers = new int[size];
         double minnumber=0;
-        double min = 0;
+        int min = 0;
         for (int index = 0; index < numbers.length; index++) {
             numbers[index] = input.nextInt();
         }
