@@ -21,7 +21,7 @@ public class MinIndex {
            }
            
         }
-        System.out.println("Min number: " + min);
+        System.out.println("Min index: " + min);
        
     }
 
